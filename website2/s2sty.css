@@ -58,3 +58,6 @@ input {
 	left: 25%;
 	float: none;
 }
+#colorval {
+	margin: 0 auto;
+}

@@ -1,9 +1,20 @@
+@font-face {
+	font-family: 'Karmatic';
+	src: url("./dec/karmatic_arcade/ka1.ttf") format('truetype');
+}
+@font-face {
+	font-family: 'Biko';
+	src: url("./dec/biko/Biko_Regular.otf") format('opentype');
+}
 body{
-	background: white url("./dec/swirl_pattern/swirl_pattern/swirl_pattern.png") repeat top left;
+	background-color: #cfcfcf;
 	z-index: -1;
 }
 h1 {
 	text-align:center;
+	font-family: 'Karmatic';
+	font-weight: normal;
+	font-size:48px;
 }
 .container {
 	width: 800px;
@@ -22,4 +33,28 @@ h1 {
 }
 .canvas:hover {
 	background-color: #eeeeee;
+}
+p {
+	font-family: 'Biko';
+	text-align: center;
+}
+#clearAll {
+	display: block;
+	width: 80px;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Biko';
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+#clearAll:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+input {
+	left: 25%;
+	float: none;
 }

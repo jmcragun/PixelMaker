@@ -1,0 +1,25 @@
+body{
+	background: white url("./dec/swirl_pattern/swirl_pattern/swirl_pattern.png") repeat top left;
+	z-index: -1;
+}
+h1 {
+	text-align:center;
+}
+.container {
+	width: 800px;
+	height: 800px;
+	float: none;
+	margin-right: auto;
+	margin-left:auto;
+}
+.canvas {
+	width: 16px;
+	height: 16px;
+	display: block;
+	background-color: white;
+	float: left;
+	outline:1px solid;
+}
+.canvas:hover {
+	background-color: #eeeeee;
+}
